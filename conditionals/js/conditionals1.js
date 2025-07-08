@@ -24,7 +24,7 @@ if (season === "summer") {
 }
 
 // Console log the response for debugging
-console.log("Response:", response);
+console.log("Conditionals 1 Response:", response);
 
 const element1 = document.createElement("p");
 element1.innerHTML = `<h2>Conditionals 1 Result</h2>
