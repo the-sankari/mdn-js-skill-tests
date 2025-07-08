@@ -21,7 +21,7 @@ const DASHBOARD_CONFIG = {
       id: "conditionals",
       name: "Conditionals",
       icon: "🔀",
-      status: "in-progress",
+      status: "completed",
       description:
         "Decision making with if/else statements, switch cases, and ternary operators.",
       link: "conditionals/index.html",
