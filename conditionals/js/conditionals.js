@@ -16,15 +16,18 @@ let season = "summer"; // Change this to "winter" to test the second condition
 let response = ""; // Initialize response variable
 
 // Check if the season is summer
-if(season === "summer"){
-    response = "It's summer! Time for some fun in the sun!";
-}else if(season === 'winter'){ // Check if the season is winter
-    response = "It's winter! Time to bundle up and enjoy the snow!";
+if (season === "summer") {
+  response = "It's summer! Time for some fun in the sun!";
+} else if (season === "winter") {
+  // Check if the season is winter
+  response = "It's winter! Time to bundle up and enjoy the snow!";
 }
 
+// Console log the response for debugging
+console.log("Response:", response);
 
 const element1 = document.createElement("p");
 element1.innerHTML = `<h2>Task 1 Result</h2>
-<p></p>`;
+<p>${response}</p>`;
 
 conditionals1.appendChild(element1);
