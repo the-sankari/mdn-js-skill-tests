@@ -12,31 +12,27 @@ const DASHBOARD_CONFIG = {
       name: "Arrays",
       icon: "📋",
       status: "completed",
-      description: "Array manipulation and methods including push, pop, splice, filter, and iteration techniques.",
+      description:
+        "Array manipulation and methods including push, pop, splice, filter, and iteration techniques.",
       link: "arrays/index.html",
     },
-    {
-      id: "variables",
-      name: "Variables",
-      icon: "📝",
-      status: "not-started",
-      description: "Variable declarations, scope, data types, and the differences between let, const, and var.",
-      link: "#",
-    },
+
     {
       id: "conditionals",
       name: "Conditionals",
       icon: "🔀",
-      status: "not-started",
-      description: "Decision making with if/else statements, switch cases, and ternary operators.",
-      link: "#",
+      status: "in-progress",
+      description:
+        "Decision making with if/else statements, switch cases, and ternary operators.",
+      link: "conditionals/index.html",
     },
     {
       id: "functions",
       name: "Functions",
       icon: "⚡",
       status: "not-started",
-      description: "Function declarations, expressions, arrow functions, and advanced concepts like closures.",
+      description:
+        "Function declarations, expressions, arrow functions, and advanced concepts like closures.",
       link: "#",
     },
     {
@@ -44,7 +40,8 @@ const DASHBOARD_CONFIG = {
       name: "Loops",
       icon: "🔄",
       status: "not-started",
-      description: "Iteration and control flow with for, while, do-while, and modern iteration methods.",
+      description:
+        "Iteration and control flow with for, while, do-while, and modern iteration methods.",
       link: "#",
     },
     {
@@ -52,7 +49,8 @@ const DASHBOARD_CONFIG = {
       name: "Objects",
       icon: "🏗️",
       status: "not-started",
-      description: "Object creation, properties, methods, and object-oriented programming fundamentals.",
+      description:
+        "Object creation, properties, methods, and object-oriented programming fundamentals.",
       link: "#",
     },
     {
@@ -60,7 +58,17 @@ const DASHBOARD_CONFIG = {
       name: "Strings",
       icon: "🔤",
       status: "not-started",
-      description: "String methods, manipulation, template literals, and text processing techniques.",
+      description:
+        "String methods, manipulation, template literals, and text processing techniques.",
+      link: "#",
+    },
+    {
+      id: "variables",
+      name: "Variables",
+      icon: "📝",
+      status: "not-started",
+      description:
+        "Variable declarations, scope, data types, and the differences between let, const, and var.",
       link: "#",
     },
   ],
@@ -159,14 +167,20 @@ function generateModulesGrid() {
       const isDisabled = module.status === "not-started" ? "disabled" : "";
 
       return `
-            <div class="module-card ${module.status}" data-module-id="${module.id}">
+            <div class="module-card ${module.status}" data-module-id="${
+        module.id
+      }">
                 <div class="module-header">
                     <div class="module-icon">${module.icon}</div>
                     <div class="module-title">${module.name}</div>
                 </div>
-                <div class="module-status status-${module.status}">${statusText[module.status]}</div>
+                <div class="module-status status-${module.status}">${
+        statusText[module.status]
+      }</div>
                 <div class="module-description">${module.description}</div>
-                <a href="${module.link}" class="module-link ${isDisabled}">${linkText[module.status]}</a>
+                <a href="${module.link}" class="module-link ${isDisabled}">${
+        linkText[module.status]
+      }</a>
             </div>
         `;
     })
@@ -218,8 +232,12 @@ function updateLastUpdatedDate() {
  */
 function updateProgress() {
   const total = DASHBOARD_CONFIG.modules.length;
-  const completed = DASHBOARD_CONFIG.modules.filter((m) => m.status === "completed").length;
-  const inProgress = DASHBOARD_CONFIG.modules.filter((m) => m.status === "in-progress").length;
+  const completed = DASHBOARD_CONFIG.modules.filter(
+    (m) => m.status === "completed"
+  ).length;
+  const inProgress = DASHBOARD_CONFIG.modules.filter(
+    (m) => m.status === "in-progress"
+  ).length;
   const percentage = total > 0 ? Math.round((completed / total) * 100) : 0;
 
   // Update DOM elements
@@ -234,7 +252,9 @@ function updateProgress() {
     progressFill.style.width = percentage + "%";
   }
 
-  console.log(`📊 Progress updated: ${completed}/${total} modules completed (${percentage}%)`);
+  console.log(
+    `📊 Progress updated: ${completed}/${total} modules completed (${percentage}%)`
+  );
 }
 
 /**
@@ -335,7 +355,9 @@ function handleKeyboardNavigation(event) {
  * Update module status (for future use)
  */
 function updateModuleStatus(moduleId, newStatus) {
-  const moduleIndex = DASHBOARD_CONFIG.modules.findIndex((m) => m.id === moduleId);
+  const moduleIndex = DASHBOARD_CONFIG.modules.findIndex(
+    (m) => m.id === moduleId
+  );
   if (moduleIndex === -1) return;
 
   // Update configuration
