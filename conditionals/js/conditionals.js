@@ -18,6 +18,8 @@ let response = ""; // Initialize response variable
 // Check if the season is summer
 if(season === "summer"){
     response = "It's summer! Time for some fun in the sun!";
+}else if(season === 'winter'){ // Check if the season is winter
+    response = "It's winter! Time to bundle up and enjoy the snow!";
 }
 
 
