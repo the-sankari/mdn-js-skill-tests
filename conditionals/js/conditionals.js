@@ -27,7 +27,7 @@ if (season === "summer") {
 console.log("Response:", response);
 
 const element1 = document.createElement("p");
-element1.innerHTML = `<h2>Task 1 Result</h2>
+element1.innerHTML = `<h2>Conditionals 1 Result</h2>
 <p>${response}</p>`;
 
 conditionals1.appendChild(element1);
