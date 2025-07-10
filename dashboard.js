@@ -64,13 +64,13 @@ const DASHBOARD_CONFIG = {
     },
 
     {
-      id: "objects",
-      name: "Objects",
+      id: "objectBasics",
+      name: "Object Basics",
       icon: "🏗️",
-      status: "not-started",
+      status: "in-progress",
       description:
         "Object creation, properties, methods, and object-oriented programming fundamentals.",
-      link: "#",
+      link: "object_basics/index.html",
     },
   ],
   resources: [
