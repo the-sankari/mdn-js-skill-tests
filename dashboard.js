@@ -72,6 +72,33 @@ const DASHBOARD_CONFIG = {
         "Object creation, properties, methods, and object-oriented programming fundamentals.",
       link: "object_basics/index.html",
     },
+    {
+      id: "events",
+      name: "Events",
+      icon: "🎯",
+      status: "pending",
+      description:
+        "Event handling, DOM events, event listeners, and interactive web programming.",
+      link: "events/index.html",
+    },
+    {
+      id: "json",
+      name: "JSON",
+      icon: "📄",
+      status: "pending",
+      description:
+        "JSON parsing, stringification, data serialization, and API data handling.",
+      link: "json/index.html",
+    },
+    {
+      id: "math",
+      name: "Math",
+      icon: "🔢",
+      status: "pending",
+      description:
+        "Mathematical operations, Math object methods, and numerical computations.",
+      link: "math/index.html",
+    },
   ],
   resources: [
     {
