@@ -57,10 +57,10 @@ const DASHBOARD_CONFIG = {
       id: "functions",
       name: "Functions",
       icon: "⚡",
-      status: "not-started",
+      status: "in-progress",
       description:
         "Function declarations, expressions, arrow functions, and advanced concepts like closures.",
-      link: "#",
+      link: "functions/index.html",
     },
 
     {
