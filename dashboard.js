@@ -76,7 +76,7 @@ const DASHBOARD_CONFIG = {
       id: "events",
       name: "Events",
       icon: "🎯",
-      status: "pending",
+      status: "not-started",
       description:
         "Event handling, DOM events, event listeners, and interactive web programming.",
       link: "events/index.html",
@@ -85,7 +85,7 @@ const DASHBOARD_CONFIG = {
       id: "json",
       name: "JSON",
       icon: "📄",
-      status: "pending",
+      status: "not-started",
       description:
         "JSON parsing, stringification, data serialization, and API data handling.",
       link: "json/index.html",
@@ -94,7 +94,7 @@ const DASHBOARD_CONFIG = {
       id: "math",
       name: "Math",
       icon: "🔢",
-      status: "pending",
+      status: "not-started",
       description:
         "Mathematical operations, Math object methods, and numerical computations.",
       link: "math/index.html",

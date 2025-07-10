@@ -5,6 +5,7 @@ This module contains JavaScript skill tests focused on iteration and repetitive 
 ## Overview
 
 The Loops module covers essential iteration concepts including:
+
 - For loops (traditional and modern)
 - While and do-while loops
 - Loop control statements (break, continue)
@@ -26,18 +27,21 @@ loops/
 ## Test Topics
 
 ### Loops 1: Basic Loops
+
 - Traditional for loops
 - While loops
 - Do-while loops
 - Loop initialization and conditions
 
 ### Loops 2: Loop Control
+
 - Break statements
 - Continue statements
 - Nested loop structures
 - Loop optimization
 
 ### Loops 3: Advanced Iteration
+
 - For...in loops (object properties)
 - For...of loops (iterables)
 - Array iteration methods
@@ -53,6 +57,7 @@ loops/
 ## Learning Objectives
 
 By completing this module, you will:
+
 - Master different types of loops and their use cases
 - Understand loop control flow and optimization
 - Learn when to use each type of iteration

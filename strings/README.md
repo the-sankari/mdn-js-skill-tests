@@ -5,6 +5,7 @@ This module contains JavaScript skill tests focused on string manipulation, meth
 ## Overview
 
 The Strings module covers comprehensive string concepts including:
+
 - String creation and manipulation
 - String methods and properties
 - Template literals and string interpolation
@@ -27,24 +28,28 @@ strings/
 ## Test Topics
 
 ### Strings 1: Basic Operations
+
 - String creation and initialization
 - String concatenation
 - String length property
 - Character access and indexing
 
 ### Strings 2: String Methods
+
 - `slice()`, `substring()`, `substr()`
 - `indexOf()`, `lastIndexOf()`, `includes()`
 - `toLowerCase()`, `toUpperCase()`
 - `trim()`, `split()`, `replace()`
 
 ### Strings 3: Template Literals
+
 - Template literal syntax
 - String interpolation
 - Multi-line strings
 - Tagged template literals
 
 ### Strings 4: Advanced Processing
+
 - Regular expressions with strings
 - String parsing and validation
 - Complex string transformations
@@ -60,6 +65,7 @@ strings/
 ## Learning Objectives
 
 By completing this module, you will:
+
 - Master string manipulation techniques
 - Understand string methods and their use cases
 - Learn modern string features like template literals

@@ -5,6 +5,7 @@ This module contains JavaScript skill tests focused on variable declarations, sc
 ## Overview
 
 The Variables module covers fundamental variable concepts including:
+
 - Variable declarations (var, let, const)
 - Variable scope and hoisting
 - Data types and type conversion
@@ -25,12 +26,14 @@ variables/
 ## Test Topics
 
 ### Variables 1: Basic Declarations
+
 - `var`, `let`, and `const` declarations
 - Variable initialization
 - Variable reassignment
 - Basic data types (string, number, boolean)
 
 ### Variables 2: Scope and Advanced Concepts
+
 - Block scope vs function scope
 - Variable hoisting
 - Temporal dead zone
@@ -46,6 +49,7 @@ variables/
 ## Learning Objectives
 
 By completing this module, you will:
+
 - Understand the differences between var, let, and const
 - Master variable scope and hoisting concepts
 - Learn best practices for variable naming and usage

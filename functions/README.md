@@ -5,6 +5,7 @@ This module contains JavaScript skill tests focused on function declarations, ex
 ## Overview
 
 The Functions module covers comprehensive function concepts including:
+
 - Function declarations and expressions
 - Arrow functions
 - Function parameters and arguments
@@ -27,24 +28,28 @@ functions/
 ## Test Topics
 
 ### Functions 1: Basic Declarations
+
 - Function declaration syntax
 - Function naming conventions
 - Basic function calls
 - Function hoisting
 
 ### Functions 2: Expressions and Arrow Functions
+
 - Function expressions
 - Anonymous functions
 - Arrow function syntax
 - Differences between declaration types
 
 ### Functions 3: Parameters and Scope
+
 - Function parameters
 - Default parameters
 - Rest parameters
 - Function scope and variable access
 
 ### Functions 4: Advanced Concepts
+
 - Closures
 - Higher-order functions
 - Callback functions
@@ -60,6 +65,7 @@ functions/
 ## Learning Objectives
 
 By completing this module, you will:
+
 - Master function creation and invocation
 - Understand different function types and their use cases
 - Learn scope, closures, and advanced function concepts

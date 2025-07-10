@@ -5,6 +5,7 @@ This module contains JavaScript skill tests focused on array manipulation, metho
 ## Overview
 
 The Arrays module covers fundamental array concepts including:
+
 - Array creation and initialization
 - Array methods (push, pop, shift, unshift, splice, slice)
 - Array iteration (for, forEach, map, filter, reduce)
@@ -27,24 +28,28 @@ arrays/
 ## Test Topics
 
 ### Arrays 1: Basic Operations
+
 - Creating arrays
 - Adding and removing elements
 - Array length property
 - Accessing array elements
 
 ### Arrays 2: Array Methods
+
 - `push()`, `pop()`, `shift()`, `unshift()`
 - `splice()` and `slice()`
 - `indexOf()` and `includes()`
 - `join()` and `split()`
 
 ### Arrays 3: Array Iteration
+
 - Traditional for loops
 - `forEach()` method
 - `map()` for transformation
 - `filter()` for selection
 
 ### Arrays 4: Advanced Operations
+
 - `reduce()` for aggregation
 - Multi-dimensional arrays
 - Array destructuring
@@ -60,6 +65,7 @@ arrays/
 ## Learning Objectives
 
 By completing this module, you will:
+
 - Understand array fundamentals and best practices
 - Master essential array methods for data manipulation
 - Learn efficient iteration techniques

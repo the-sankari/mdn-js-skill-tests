@@ -5,6 +5,7 @@ This module contains JavaScript skill tests focused on conditional statements an
 ## Overview
 
 The Conditionals module covers essential decision-making concepts including:
+
 - If/else statements
 - Switch statements
 - Ternary operator
@@ -26,18 +27,21 @@ conditionals/
 ## Test Topics
 
 ### Conditionals 1: Basic If/Else
+
 - Simple if statements
 - If/else constructs
 - Nested conditions
 - Boolean expressions
 
 ### Conditionals 2: Switch and Multiple Conditions
+
 - Switch statement syntax
 - Case matching and fall-through
 - Default cases
 - Multiple condition checks
 
 ### Conditionals 3: Advanced Logic
+
 - Ternary operator usage
 - Logical operators (&&, ||, !)
 - Short-circuit evaluation
@@ -53,6 +57,7 @@ conditionals/
 ## Learning Objectives
 
 By completing this module, you will:
+
 - Master conditional statement syntax and usage
 - Understand when to use different conditional constructs
 - Learn best practices for readable conditional code
