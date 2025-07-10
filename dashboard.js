@@ -36,6 +36,15 @@ const DASHBOARD_CONFIG = {
       link: "conditionals/index.html",
     },
     {
+      id: "loops",
+      name: "Loops",
+      icon: "🔄",
+      status: "completed",
+      description:
+        "Iteration and control flow with for, while, do-while, and modern iteration methods.",
+      link: "loops/index.html",
+    },
+    {
       id: "functions",
       name: "Functions",
       icon: "⚡",
@@ -44,15 +53,7 @@ const DASHBOARD_CONFIG = {
         "Function declarations, expressions, arrow functions, and advanced concepts like closures.",
       link: "#",
     },
-    {
-      id: "loops",
-      name: "Loops",
-      icon: "🔄",
-      status: "not-started",
-      description:
-        "Iteration and control flow with for, while, do-while, and modern iteration methods.",
-      link: "#",
-    },
+
     {
       id: "objects",
       name: "Objects",
