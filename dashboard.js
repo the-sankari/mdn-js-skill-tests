@@ -20,7 +20,7 @@ const DASHBOARD_CONFIG = {
       id: "strings",
       name: "Strings",
       icon: "🔤",
-      status: "in-progress",
+      status: "completed",
       description:
         "String methods, manipulation, template literals, and text processing techniques.",
       link: "strings/index.html",
