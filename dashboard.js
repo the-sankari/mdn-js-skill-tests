@@ -66,7 +66,7 @@ const DASHBOARD_CONFIG = {
       id: "variables",
       name: "Variables",
       icon: "📝",
-      status: "not-started",
+      status: "in-progress",
       description:
         "Variable declarations, scope, data types, and the differences between let, const, and var.",
       link: "#",
