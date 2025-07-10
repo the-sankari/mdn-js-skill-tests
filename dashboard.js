@@ -8,6 +8,15 @@
 const DASHBOARD_CONFIG = {
   modules: [
     {
+      id: "variables",
+      name: "Variables",
+      icon: "📝",
+      status: "completed",
+      description:
+        "Variable declarations, scope, data types, and the differences between let, const, and var.",
+      link: "./variables/index.html",
+    },
+    {
       id: "arrays",
       name: "Arrays",
       icon: "📋",
@@ -60,15 +69,6 @@ const DASHBOARD_CONFIG = {
       status: "not-started",
       description:
         "String methods, manipulation, template literals, and text processing techniques.",
-      link: "#",
-    },
-    {
-      id: "variables",
-      name: "Variables",
-      icon: "📝",
-      status: "in-progress",
-      description:
-        "Variable declarations, scope, data types, and the differences between let, const, and var.",
       link: "#",
     },
   ],
