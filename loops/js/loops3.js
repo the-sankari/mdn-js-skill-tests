@@ -34,5 +34,4 @@ for (let j = limit; j >= 2; j--) {
 
 // Don't edit the code below here!
 const section3 = document.getElementById("loops3");
-section3.innerHTML = " ";
 section3.appendChild(para4);

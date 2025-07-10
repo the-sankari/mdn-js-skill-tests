@@ -17,6 +17,15 @@ const DASHBOARD_CONFIG = {
       link: "./variables/index.html",
     },
     {
+      id: "strings",
+      name: "Strings",
+      icon: "🔤",
+      status: "in-progress",
+      description:
+        "String methods, manipulation, template literals, and text processing techniques.",
+      link: "strings/index.html",
+    },
+    {
       id: "arrays",
       name: "Arrays",
       icon: "📋",
@@ -61,15 +70,6 @@ const DASHBOARD_CONFIG = {
       status: "not-started",
       description:
         "Object creation, properties, methods, and object-oriented programming fundamentals.",
-      link: "#",
-    },
-    {
-      id: "strings",
-      name: "Strings",
-      icon: "🔤",
-      status: "not-started",
-      description:
-        "String methods, manipulation, template literals, and text processing techniques.",
       link: "#",
     },
   ],

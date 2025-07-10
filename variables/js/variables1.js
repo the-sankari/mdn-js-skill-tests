@@ -10,7 +10,6 @@ let myName = "Kajol Sutra Dhar";
 
 // Don't edit the code below here!
 const variableSection1 = document.getElementById("variables1");
-variableSection1.innerHTML = " ";
 const para = document.createElement("p");
 para.textContent = myName;
 variableSection1.appendChild(para);

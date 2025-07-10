@@ -17,7 +17,6 @@ myAge = parseInt(myAge);
 
 // Don't edit the code below here!
 const variableSection2 = document.getElementById("variables2");
-variableSection2.innerHTML = " ";
 const para1 = document.createElement("p");
 const para2 = document.createElement("p");
 para1.textContent = myName2;
